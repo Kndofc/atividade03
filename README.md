@@ -12,27 +12,6 @@ Um aplicativo Flutter com:
 
 ## 📂 Estrutura do Projeto
 
-```
-
-my\_app/
-├─ android/
-├─ ios/
-├─ lib/
-│  ├─ main.dart
-│  ├─ screens/
-│  │  ├─ splash/
-│  │  │  └─ flutter\_splash.dart
-│  │  ├─ onboarding/
-│  │  │  └─ onboarding\_screen.dart
-│  │  └─ welcome/
-│  │     └─ welcome\_screen.dart
-│  └─ widgets/
-├─ assets/
-│  ├─ images/             # logos, placeholders
-│  ├─ animations/         # (opcional) Lottie JSON
-│  └─ json/               # onboarding.json
-├─ pubspec.yaml
-└─ README.md
 
 ````
 
@@ -40,29 +19,23 @@ my\_app/
 
 ## 🚀 Como Rodar
 
-1. **Clone o repositório**  
+1. Clone o repositório
    ```bash
    cd my_app
 ````
 
-2. **Instale dependências**
+2. Instale dependências
 
-   ```bash
    flutter pub get
-   ```
 
-3. **Gere a Splash nativa**
+3. Gere a Splash nativa
 
-   ```bash
    dart run flutter_native_splash:create
-   ```
 
-4. **Execute o app**
+4. Execute o app
 
-   ```bash
    flutter clean
    flutter run
-   ```
 
 ---
 
